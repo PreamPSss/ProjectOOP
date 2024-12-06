@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8dfe967cce553a49a9dc28fedf4e1f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 100
   healthBar: {fileID: 0}
   anim: {fileID: 0}
   rb: {fileID: 20512496}
@@ -1407,11 +1407,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7607576ef18644246825afe9cd88008c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 100
   healthBar: {fileID: 0}
   anim: {fileID: 0}
   rb: {fileID: 0}
-  scythe: {fileID: 6497107408674447139, guid: 2267710d334d3904e9891293eb54fee9, type: 3}
+  scythe: {fileID: 2083113995707672843, guid: 2267710d334d3904e9891293eb54fee9, type: 3}
   weaponSpawnPoint: {fileID: 280436138}
 --- !u!4 &1691720775 stripped
 Transform:
