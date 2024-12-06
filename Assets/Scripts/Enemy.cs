@@ -16,10 +16,10 @@ public abstract class Enemy : Character
             damageHit = value;
         }
     }
-    public abstract void Behavior();
-
     private void Start()
     {
         Behavior();
     }
+    public abstract void Behavior();
+
 }

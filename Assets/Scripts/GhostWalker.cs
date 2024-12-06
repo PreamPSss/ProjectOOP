@@ -9,8 +9,7 @@ public class GhostWalker : Enemy
 
     private void Start()
     {
-        //rb = GetComponent <Rigidbody2D>();
-
+        Init(100);
     }
     private void FlipCharater()
     {
