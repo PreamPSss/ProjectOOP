@@ -9,8 +9,6 @@ public class GhostWalker : Enemy
         private void Start()
         {
             //rb = GetComponent <Rigidbody2D>();
-           //Initialized(10);
-            //Debug.Log(Health);
 
         }
         private void FlipCharater()
@@ -24,7 +22,7 @@ public class GhostWalker : Enemy
 
 
         [SerializeField] private Vector2 velocity;
-        [SerializeField] private Transform[] movePoints; // array
+        [SerializeField] private Transform[] movePoints; 
 
         private void FixedUpdate()
         {
