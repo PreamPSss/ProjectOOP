@@ -29,8 +29,8 @@ public abstract class Weapon : MonoBehaviour
     {
         float shootDir = shooter.BulletSpawnPoint.position.x - shooter.BulletSpawnPoint.parent.position.x;
         if (shootDir < 0)
-            return -1;
-        else return 1;
+            return 1;
+        else return -1;
 
     }
     private void OnTriggerEnter2D(Collider2D other)
