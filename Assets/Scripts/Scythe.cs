@@ -24,6 +24,7 @@ public class Scythe : Weapon
     {
         Move();
     }
+    
     public override void OnHitWith(Character character)
     {
         if (character is Enemy)
