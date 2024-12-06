@@ -4,28 +4,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 7.5f;
-    
+    [SerializeField]private float speed = 8f;
     private Rigidbody2D rb;
-    private float moveInput;
-    
-    void Start()
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    
-    void Update()
+    private void Update()
     {
-        Move();
-    }
-
-    private void Move()
-    {
-        moveInput = UserInput.instance.moveInput.x;
-
-        rb.velocity = new Vector2 (moveInput * moveSpeed, rb.velocity.y);
-
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal")* speed,rb.velocity.y);
+        if (Input.GetKey(KeyCode.Space))
+            rb.velocity = new Vector2(rb.velocity.x,speed);
     }
 
 }

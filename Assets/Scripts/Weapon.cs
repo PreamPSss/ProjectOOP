@@ -17,7 +17,6 @@ public abstract class Weapon : MonoBehaviour
         }
     }
     protected IShootable shooter;
-
     public abstract void OnHitWith(Character character);
     public abstract void Move();
 
@@ -39,4 +38,5 @@ public abstract class Weapon : MonoBehaviour
         OnHitWith(other.GetComponent<Character>());
         Destroy(this.gameObject, 6f);
     }
+
 }
