@@ -33,14 +33,14 @@ public class Character : MonoBehaviour
     public void TakeDamage(int damage)
     {
         Health -= damage;
-        //healthBar.UpdateHealthBar(health);
+        healthBar.UpdateHealthBar(health);
         IsDead();
     }
 
     public void Init(int newHealth)
     {
         Health = newHealth;
-        //healthBar.SetMaxHealth(newHealth);
+        healthBar.SetMaxHealth(newHealth);
 
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
