@@ -389,7 +389,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: 476d7b25f3790774da34c6a798409814, type: 3}
   m_PrefabInstance: {fileID: 20512492}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
+
   m_GameObject: {fileID: 20512493}
   m_Enabled: 1
   m_Density: 1
@@ -430,9 +430,9 @@ Transform:
   m_Size: {x: 2.8630805, y: 3.6525974}
   m_EdgeRadius: 0
 --- !u!1 &51697064
-=======
+
 --- !u!1 &60653289
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -592,11 +592,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: b31f064beb196d74ebdac0d3579b3bd1, type: 3}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD
+
       value: -3.47
-=======
+
       value: -3.6167862
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: b31f064beb196d74ebdac0d3579b3bd1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -962,9 +962,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1691720775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
+
 --- !u!1 &331336881
-=======
+
 --- !u!114 &351476919 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3983307792675812012, guid: d978acefc974cb042ac2d59be057a15b, type: 3}
@@ -988,7 +988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &351884900
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1526,7 +1526,7 @@ BoxCollider2D:
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
+
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.298533, y: 5.742093, z: -0.10708282}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1618,7 +1618,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1417496656}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
+
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 1691720775}
@@ -1728,7 +1728,7 @@ Transform:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d978acefc974cb042ac2d59be057a15b, type: 3}
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
 --- !u!1 &712240149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,9 +1760,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
+
 --- !u!1 &797877547
-=======
+
 --- !u!1001 &775459433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1904,7 +1904,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 775459433}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &971228577
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3587,13 +3587,13 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 1
-<<<<<<< HEAD
+
   m_SleepingMode: 1
   m_CollisionDetection: 0
-=======
+
   m_SleepingMode: 0
   m_CollisionDetection: 1
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
   m_Constraints: 4
 --- !u!114 &1691720773
 MonoBehaviour:
@@ -3631,18 +3631,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: b31f064beb196d74ebdac0d3579b3bd1, type: 3}
   m_PrefabInstance: {fileID: 65697969}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
+
 --- !u!1 &1856195391
 GameObject:
-=======
+
 --- !u!114 &1691720776
 MonoBehaviour:
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
+
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1856195392}
@@ -3851,7 +3851,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1417496656}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
+
   m_GameObject: {fileID: 1691720769}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3859,7 +3859,7 @@ Transform:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
->>>>>>> 792cb10079c3e81469b33be2f2e62bb2d4bc5a4d
+
 --- !u!1 &1947260897
 GameObject:
   m_ObjectHideFlags: 0
