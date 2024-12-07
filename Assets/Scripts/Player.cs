@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : Character, IShootable
 {
@@ -11,6 +12,8 @@ public class Player : Character, IShootable
 
     [SerializeField] public float WaitTime { get; set; }
     [SerializeField] public float Timer { get; set; }
+    public Text WinText ;
+    
 
     public void Shoot()
     {
@@ -19,6 +22,13 @@ public class Player : Character, IShootable
             GameObject obj = Instantiate(scythe, BulletSpawnPoint.position, Quaternion.identity);
             Scythe Scythe = obj.GetComponent<Scythe>();
             Scythe.Init(10, this);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Win") ;
+        {
+            WinText.gameObject.SetActive(true);
         }
     }
 
