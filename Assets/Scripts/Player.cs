@@ -12,7 +12,7 @@ public class Player : Character, IShootable
 
     [SerializeField] public float WaitTime { get; set; }
     [SerializeField] public float Timer { get; set; }
-    public Text WinText ;
+    //public Text WinText ;
     
 
     public void Shoot()
@@ -24,13 +24,13 @@ public class Player : Character, IShootable
             Scythe.Init(10, this);
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Win") ;
-        {
-            WinText.gameObject.SetActive(true);
-        }
-    }
+    //private void OnTriggerEnter2D(Collider2D collision)
+   // {
+    //    if (collision.tag == "Win") ;
+    //    {
+    //        WinText.gameObject.SetActive(true);
+    //    }
+    //}
 
 
     void Start()
