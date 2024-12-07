@@ -29,5 +29,6 @@ public class Scythe : Weapon
     {
         if (character is Enemy)
             character.TakeDamage(this.Damage);
+
     }
 }
